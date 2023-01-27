@@ -1,0 +1,119 @@
+<div class="secondContainer">
+    <div class="h1--header"><h1>Buy now, pay later with Pay in 4</h1></div>
+    <div class="p--text">
+      <p>
+        Want something now but the sale ends before payday? Choose Pay in 4
+        at checkout with millions of online stores and split the cost into 4
+        interest-free payments.
+      </p>
+      <div class="p--text-element">
+        <a href="http://"> Sign up
+
+        </a>
+        <span class="material-symbols-outlined" id="arrowRight">
+          arrow_right_alt
+          <div class="dot3"></div>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="firstContainer">
+    <img
+      src="crypto-img.jpg"
+      alt=""
+      class="Buy-now-pay-later-with-Payin-4"
+    />
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .firstDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: palevioletred;
+  
+  
+  }
+  .firstContainer{
+    margin-right: 40px;
+    margin-left: 30px;
+  }
+  
+  .Buy-now-pay-later-with-Payin-4 {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  
+  .h1--header > h1 {
+    width: 400px;
+    margin-top: 40px;
+  }
+  .p--text {
+    width: 400px;
+    height: 160px;
+  }
+  
+  .p--text > p {
+    width: 400px;
+    font-size: 17px;
+    
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  
+  .p--text-element{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 30px;
+   
+  
+  }
+  .p--text-element>a{
+    font-size: 20px;
+    color: #488cf0;
+  }
+  .p--text-element>span{
+    color: #488cf0;
+  }
+  .p--text-element>span>div{
+    
+      height: 25px;
+      width: 25px;
+      background-color: #366cbb;
+      border-radius: 50%;
+      opacity: 0.5;
+      display: inline-block;
+      margin-left: -35px;
+    
+      
+    
+  }
