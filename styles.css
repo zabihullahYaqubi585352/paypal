@@ -87,7 +87,7 @@ h6 {
   display: flex;
   justify-content: end;
   align-items: center;
-min-width: 80px; 
+  min-width: 80px;
   /* background-color: red; */
 }
 
@@ -154,13 +154,12 @@ a {
   padding: 6px 14px;
   font-size: 15px;
 }
-.arrange--midle{
+.arrange--midle {
   display: none;
   justify-content: start;
   align-items: center;
   width: 850px;
   height: auto;
-
 }
 
 .header--midle {
@@ -170,7 +169,6 @@ a {
   max-width: 600px;
   height: auto;
   flex-grow: 1;
- 
 }
 
 .header--midle > ul {
@@ -186,7 +184,7 @@ a {
 
   /* background-color: red; */
 }
-.afterHeader{
+.afterHeader {
   display: none;
   width: 100%;
   height: 100px;
@@ -200,28 +198,28 @@ a {
   width: 100%;
   height: auto;
   background: #172c8e;
-  
 }
 
 .paragraph {
   display: flex;
   justify-content: start;
   align-items: center;
-  min-width: 435px;
+  /* min-width: 435px; */
   max-width: 830px;
   height: auto;
   margin-left: 30px;
+  margin-right: 5px;
   margin-top: 20px;
-  /* background-color: wheat; */
+  background-color: wheat;
 }
-.paragraph>p{
+.paragraph > p {
   width: 100%;
   font-size: 50px;
-color:white;
-font-weight: 400;
-font-family: sans-serif;
-line-height: normal;
-  /* background-color: red; */
+  color: white;
+  font-weight: 400;
+  font-family: sans-serif;
+  line-height: normal;
+  /* background-color: rgb(16, 165, 108); */
 }
 .btn {
   width: 92%;
@@ -240,10 +238,9 @@ button {
 }
 
 .first-paragraph {
- 
- display: flex;
- justify-content: start;
- align-items: center;
+  display: flex;
+  justify-content: start;
+  align-items: center;
   width: 100%;
   height: auto;
   color: white;
@@ -278,18 +275,16 @@ button {
   flex-wrap: wrap;
   background: #172c8e;
 }
-.carton--image{
+.carton--image {
   /* background-color: red; */
   max-width: 507px;
   min-width: 400px;
   height: auto;
-
 }
-.carton--image>img{
+.carton--image > img {
   width: 100%;
   height: 100%;
 }
-
 
 .scan-part {
   display: none;
@@ -403,7 +398,6 @@ input {
   width: 100%;
   height: auto;
   margin-bottom: 40px;
-
 }
 
 .BNPL-img {
@@ -443,7 +437,6 @@ input {
 .centerDivElementFiveDiv {
   max-width: 500px;
   height: auto;
-
 }
 
 .h1--header {
@@ -573,7 +566,6 @@ input {
   min-width: 250px;
   height: auto;
   flex-grow: 1;
-
 }
 .give-img > img {
   object-fit: contain;
@@ -892,13 +884,13 @@ input {
     display: flex;
   }
 
-.arrange--midle{
-  display: flex;
-}
+  .arrange--midle {
+    display: flex;
+  }
   .header {
     height: 100px;
   }
-  .paragraph{
+  .paragraph {
     margin-top: 0;
   }
 }
@@ -994,7 +986,7 @@ input {
     height: 50px;
     /* background-color: red; */
   }
-  
+
   .right-list-link-help {
     border: 1px solid #76a7d5;
     border-radius: 30px;
@@ -1026,20 +1018,17 @@ input {
     display: flex;
   }
   .btn {
-    display:none;
+    display: none;
   }
-  .afterHeader{
+  .afterHeader {
     display: flex;
   }
-  .paragraph{
+  .paragraph {
     min-width: 435px;
     max-width: 730px;
     background-color: red;
-
-    
   }
-  .paragraph>p{
-    
+  .paragraph > p {
   }
   /* .paragraph {
     max-width: 500px;
