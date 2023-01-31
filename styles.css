@@ -270,6 +270,7 @@ button {
   border-radius: 50%;
   opacity: 0.5;
   margin-left: -15px;
+  display: inline;
 } 
 .photo {
   display: flex;
