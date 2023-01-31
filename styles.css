@@ -253,9 +253,7 @@ button {
   /* background-color: red; */
 }
 .first-paragraph a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   color: #65c7fe;
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -263,14 +261,14 @@ button {
 }
 
 .dot {
-
   height: 25px;
   width: 25px;
   background-color: #366cbb;
   border-radius: 50%;
   opacity: 0.5;
   margin-left: -15px;
-  display: inline;
+  display: inline-block;
+  
 } 
 .photo {
   display: flex;
