@@ -92,7 +92,7 @@ h6 {
 }
 
 .header--left > img {
-  width: 70px;
+  width: 60px;
   height: auto;
   cursor: pointer;
   object-fit: contain;
@@ -107,7 +107,7 @@ h6 {
   align-items: center;
   margin-left: 20px;
   color: #172c8e;
-  margin-right: 10px;
+  margin-right: 20px;
 
   /* background-color: palevioletred; */
 }
