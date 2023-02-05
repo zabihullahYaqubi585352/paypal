@@ -202,10 +202,9 @@ a {
   height: auto;
   background: #172c8e;
 }
-.arrange-p{
+.arrange-p {
   width: 100%;
   height: auto;
-
 }
 
 .paragraph {
@@ -225,7 +224,6 @@ a {
   font-weight: 400;
   font-family: sans-serif;
   line-height: normal;
-
 }
 .btn {
   width: 92%;
@@ -243,7 +241,7 @@ button {
   font-size: 17px;
 }
 
-.arrange-first-p{
+.arrange-first-p {
   width: 100%;
   height: auto;
 }
@@ -256,7 +254,6 @@ button {
   margin-top: 40px;
   margin-left: 22px;
   background-color: red;
-
 }
 .first-paragraph a {
   width: 100%;
@@ -274,14 +271,11 @@ button {
   border-radius: 50%;
   opacity: 0.5;
   margin-left: -20px;
-  display: inline-block;
+  display: block;
 }
-.first-paragraph a >span{
-margin-left: 4px;
+.first-paragraph a > span {
+  margin-left: 4px;
 }
-
-
-
 
 .photo {
   display: flex;
@@ -308,10 +302,9 @@ margin-left: 4px;
   flex-direction: column;
   flex-basis: 600px;
   background-color: #172c8e;
-
 }
 
-.Scan-the-code-or-enter-part{
+.Scan-the-code-or-enter-part {
   display: flex;
   width: 100%;
   justify-content: flex-start;
@@ -319,30 +312,25 @@ margin-left: 4px;
   margin-left: 5px;
   width: 100%;
   height: 50px;
-  
 }
-.Scan-the-code-or-enter-part>p{
+.Scan-the-code-or-enter-part > p {
   font-size: 24px;
   color: white;
   margin-top: 40px;
   font-weight: bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
-.Scan-the-code-or-enter-part-elements{
+.Scan-the-code-or-enter-part-elements {
   width: 100%;
   height: 255px;
-display: flex;
-justify-content: flex-start;
-align-items: center;
-
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 .scan-code {
   margin-top: 25px;
   margin-bottom: 50px;
-
 }
 
 .phone-number {
@@ -880,23 +868,21 @@ input {
   margin-top: 10px;
 }
 
-
-@media (max-width: 500px){
+@media (max-width: 500px) {
   .centerDivElementSecondDiv {
     order: 2;
   }
 
   .crypto-img {
-   order: 1;
+    order: 1;
   }
-
 
   .centerDivElementFourDiv {
     order: 2;
   }
 
   .sendmoney-img {
-   order: 1;
+    order: 1;
   }
 
   .line {
@@ -909,43 +895,34 @@ input {
   }
 
   .crypto-img {
-   order: 1;
+    order: 1;
   }
-
 
   .centerDivElementFourDiv {
     order: 2;
   }
 
   .sendmoney-img {
-   order: 1;
+    order: 1;
   }
-
-  
 }
 
 @media (min-width: 800px) {
-
- 
-  
   .centerDivElementSecondDiv {
     order: 1;
   }
 
   .crypto-img {
-   order: 2;
+    order: 2;
   }
-
 
   .centerDivElementFourDiv {
     order: 1;
   }
 
   .sendmoney-img {
-   order: 2;
+    order: 2;
   }
-
-
 
   .header--left > div {
     display: none;
@@ -969,10 +946,7 @@ input {
 @media (min-width: 600px) {
   .btn {
     max-width: 300px;
-    
   }
-
- 
 }
 
 @media (min-width: 1070px) {
@@ -1044,13 +1018,12 @@ input {
     display: flex;
   }
 
-.arrange-p{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
- 
-}
+  .arrange-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
   .paragraph {
     display: flex;
     justify-content: start;
@@ -1059,7 +1032,6 @@ input {
     height: auto;
     margin-top: 20px;
     margin-right: 70px;
-
   }
   .paragraph > p {
     width: 100%;
@@ -1068,18 +1040,16 @@ input {
     font-weight: 400;
     font-family: sans-serif;
     line-height: normal;
-
   }
 
-  .arrange-first-p{
+  .arrange-first-p {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 60%;
-   
   }
 
-  .first-paragraph{
+  .first-paragraph {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -1090,16 +1060,14 @@ input {
     height: auto;
     margin-top: 20px;
     margin-right: 70px;
-
   }
- 
 }
 
 @media (min-width: 1400px) {
- .afterHeader{
-  height: 40px;
- }
-  .div-pa{
+  .afterHeader {
+    height: 40px;
+  }
+  .div-pa {
     align-items: center;
     /* background-color: olive; */
     margin-right: 50px;
@@ -1123,23 +1091,20 @@ input {
     line-height: normal;
     /* background-color: rgb(16, 165, 108); */
   }
-  .arrange-p{
+  .arrange-p {
     width: 75%;
     justify-content: flex-start;
   }
 
-
-
-  .arrange-first-p{
+  .arrange-first-p {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 75%;
     margin-left: 70px;
-   
   }
 
-  .first-paragraph{
+  .first-paragraph {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -1147,7 +1112,6 @@ input {
     height: auto;
     margin-right: 0;
     margin-top: 20px;
-
   }
 
   .header--right > ul {
