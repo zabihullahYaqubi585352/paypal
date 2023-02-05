@@ -275,6 +275,7 @@ button {
 }
 .first-paragraph a > span {
   margin-left: 4px;
+  display: block;
 }
 
 .photo {
