@@ -95,9 +95,6 @@ h6 {
   height: auto;
   cursor: pointer;
   object-fit: contain;
- 
-
-  
 }
 
 .header--left > div {
@@ -107,7 +104,7 @@ h6 {
   margin-left: 30px;
   color: #172c8e;
   font-size: 28px;
-
+  cursor: pointer;
 }
 
 .header--right {
@@ -550,7 +547,7 @@ input {
 }
 
 .touchfree-img {
-  max-width: 400px;
+  max-width: 350px;
   height: auto;
 }
 .touchfree-img > img {
