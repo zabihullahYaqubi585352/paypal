@@ -244,7 +244,7 @@ button {
   display: flex;
   justify-content: start;
   align-items: center;
-  width: 90%;
+  width: 100%;
   height: auto;
   margin-top: 40px;
   margin-left: 22px;
@@ -253,6 +253,7 @@ button {
 .first-paragraph a {
   width: 100%;
   display: flex;
+  align-items: center;
   color: #65c7fe;
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -265,12 +266,12 @@ button {
   background-color: #366cbb;
   border-radius: 50%;
   opacity: 0.5;
-  margin-left: -20px;
+  margin-left: -18px;
   z-index: 0;
 }
 .first-paragraph a > span {
   z-index: 1;
-  margin-left: 4px;
+  margin-left: 2px;
 }
 
 .photo {
@@ -627,7 +628,7 @@ input {
   flex-wrap: wrap;
   flex-direction: row;
   /* min-width: 485px; */
-  max-width: 700px;
+  max-width: 600px;
 }
 .logo {
   display: flex;
