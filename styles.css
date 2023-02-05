@@ -271,11 +271,11 @@ button {
   border-radius: 50%;
   opacity: 0.5;
   margin-left: -20px;
-  display: block;
+
 }
 .first-paragraph a > span {
   margin-left: 4px;
-  display: block;
+  
 }
 
 .photo {
