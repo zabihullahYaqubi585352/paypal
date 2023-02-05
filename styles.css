@@ -253,7 +253,7 @@ button {
   height: auto;
   margin-top: 40px;
   margin-left: 22px;
-  background-color: red;
+  z-index: 2;
 }
 .first-paragraph a {
   width: 100%;
@@ -265,15 +265,19 @@ button {
 }
 
 .dot {
+  
   height: 25px;
   width: 25px;
   background-color: #366cbb;
   border-radius: 50%;
   opacity: 0.5;
   margin-left: -20px;
+  z-index: 0;
+ 
 
 }
 .first-paragraph a > span {
+ z-index: 1;
   margin-left: 4px;
   
 }
@@ -433,6 +437,7 @@ input {
   width: 100%;
   height: auto;
   margin-bottom: 40px;
+  z-index: 2;
 }
 
 .BNPL-img {
@@ -451,25 +456,30 @@ input {
 .centerDivElementFirstDiv {
   max-width: 500px;
   height: auto;
+  /* z-index: 2; */
 }
 .centerDivElementSecondDiv {
   max-width: 500px;
   height: auto;
+  /* z-index: 2; */
 }
 
 .centerDivElementThirdDiv {
   max-width: 500px;
   height: auto;
+  /* z-index: 2; */
 }
 
 .centerDivElementFourDiv {
   max-width: 500px;
   height: auto;
+  /* z-index: 2; */
 }
 
 .centerDivElementFiveDiv {
   max-width: 500px;
   height: auto;
+  /* z-index: 2; */
 }
 
 .h1--header {
@@ -495,6 +505,7 @@ input {
   justify-content: flex-start;
   align-items: center;
   margin-top: 20px;
+ 
 }
 .a--Link > a {
   font-size: 20px;
@@ -505,9 +516,11 @@ input {
 }
 .a--Link > a > span {
   color: #488cf0;
+  z-index: 1;
 }
 .a--Link > span > .dot {
   background-color: #3870ba;
+  z-index: 0;
   /* margin-left: -40px; */
 }
 
@@ -633,7 +646,7 @@ input {
   align-items: center;
   flex-wrap: wrap;
   /* background-color: red; */
-  width: 190px;
+  width: 170px;
 }
 .logo > img {
   width: 100%;
