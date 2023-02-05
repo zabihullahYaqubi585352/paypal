@@ -883,6 +883,10 @@ input {
 }
 
 @media (max-width: 500px) {
+  .footer-left{
+    display: flex;
+    justify-content: center;
+  }
   .centerDivElementSecondDiv {
     order: 2;
   }
