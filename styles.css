@@ -92,7 +92,7 @@ h6 {
 }
 
 .header--left > img {
-  width: 60px;
+  width: 70px;
   height: auto;
   cursor: pointer;
   object-fit: contain;
@@ -251,10 +251,11 @@ button {
   display: flex;
   justify-content: start;
   align-items: center;
-  width: 80%;
+  width: 85%;
   height: auto;
   margin-top: 40px;
   margin-left: 22px;
+  background-color: red;
 
 }
 .first-paragraph a {
