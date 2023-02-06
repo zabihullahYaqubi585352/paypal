@@ -252,13 +252,22 @@ button {
 }
 .first-paragraph a {
   width: 100%;
-  display: flex;
-  align-items: center;
+  text-align: left;
   color: #65c7fe;
   font-size: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    
 }
+.first-paragraph a :active,a:hover{
+  
+    outline: 0;
+    text-decoration: underline;
+   
+
+    
+}
+
 
 .dot {
   height: 25px;
@@ -266,13 +275,16 @@ button {
   background-color: #366cbb;
   border-radius: 50%;
   opacity: 0.5;
-  margin-left: -18px;
-  z-index: 0;
+  z-index: 0; 
+  margin-right: 10px;
+
+  
+   
+ 
+  
 }
-.first-paragraph a > span {
-  z-index: 1;
-  margin-left: 2px;
-}
+
+
 
 .photo {
   display: flex;
@@ -416,8 +428,8 @@ input {
   z-index: 1;
 }
 .caption > a > div {
-  background: #b3d0e0;
-  /* margin-left: -40px; */
+  background: #ecf6fc;
+  margin-left: -20px;
   opacity: 0.8;
 }
 
@@ -498,6 +510,10 @@ input {
   align-items: center;
   margin-top: 20px;
 }
+
+
+
+
 .a--Link > a {
   font-size: 20px;
   color: #488cf0;
@@ -509,10 +525,10 @@ input {
   color: #488cf0;
   z-index: 1;
 }
-.a--Link > span > .dot {
-  background-color: #3870ba;
+.a--Link > a > .dot {
+  background-color: #677FEC;
   z-index: 0;
-  /* margin-left: -40px; */
+  margin-left: -20px;
 }
 
 .secondDiv {
@@ -555,6 +571,36 @@ input {
   object-fit: contain;
   width: 100%;
   height: 100%;
+}
+
+.PayPalQRCodes{
+    display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  margin-left: 22px;
+  z-index: 2;
+
+}
+.PayPalQRCodes>a{
+  width: 100%;
+  text-align: left;
+  color: #488cf0;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+}
+.QR{
+  height: 25px;
+  width: 25px;
+  background-color: #366cbb;
+  border-radius: 50%;
+  opacity: 0.5;
+  z-index: 0; 
+  margin-right: 10px;
 }
 
 .fourDiv {
@@ -618,6 +664,7 @@ input {
 }
 .footer-left {
   font-size: 30px;
+  font-weight: bold;
   margin-left: 60px;
 }
 
