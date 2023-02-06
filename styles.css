@@ -125,10 +125,10 @@ h6 {
   height: 100%;
   white-space: nowrap;
 }
-
-a {
+a{
   text-decoration: none;
 }
+.header--right
 
 .right-list-link-help {
   border: 1px solid #76a7d6;
@@ -143,6 +143,14 @@ a {
   color: #172c8e;
   border: 2px solid #172c8e;
   padding: 6px 14px;
+}
+.right-list-link-login:hover{
+  border: 2px solid #558ce6;
+}
+
+.right-list-link-signup:hover{
+  background-color: #3b70e1;
+  border: 1px solid #3b70e1;
 }
 .right-list-link-signup {
   border-radius: 20px;
@@ -259,7 +267,7 @@ button {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     
 }
-.first-paragraph a :active,a:hover{
+.first-paragraph >a:hover{
   
     outline: 0;
     text-decoration: underline;
