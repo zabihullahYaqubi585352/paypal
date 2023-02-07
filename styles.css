@@ -41,6 +41,10 @@ svg {
   display: block;
   max-width: 100%;
 }
+
+a{
+  text-decoration: none;
+}
 /*
   7. Remove built-in form typography styles
 */
@@ -83,21 +87,21 @@ h6 {
   /* background-color: wheat; */
   /* background-color: rgb(73, 80, 141); */
 }
-.header--left {
+.header--header-left {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100px;
 }
 
-.header--left > img {
+.header--header-left--paypal-image {
   width: 70px;
   height: auto;
   cursor: pointer;
   object-fit: contain;
 }
 
-.header--left > div {
+.header--header-left--icon {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -107,12 +111,12 @@ h6 {
   cursor: pointer;
 }
 
-.header--right {
+.header--header-right{
   /* min-width: 300px; */
   max-width: 400px;
   height: 30px;
 }
-.header--right > ul {
+.header--header-right--manage-li-right{
   display: flex;
   justify-content: start;
   align-items: center;
@@ -125,12 +129,10 @@ h6 {
   height: 100%;
   white-space: nowrap;
 }
-a{
-  text-decoration: none;
-}
-.header--right
 
-.right-list-link-help {
+
+
+.header--header-right--manage-li-right--help {
   border: 1px solid #76a7d6;
   border-radius: 20px;
   color: #3870ba;
@@ -138,21 +140,21 @@ a{
   font-weight: bold;
   padding: 6px 14px;
 }
-.right-list-link-login {
+.header--header-right--manage-li-right--login {
   border-radius: 20px;
   color: #172c8e;
   border: 2px solid #172c8e;
   padding: 6px 14px;
 }
-.right-list-link-login:hover{
+.header--header-right--manage-li-right--login:hover{
   border: 2px solid #558ce6;
 }
 
-.right-list-link-signup:hover{
+.header--header-right--manage-li-right--signup:hover{
   background-color: #3b70e1;
   border: 1px solid #3b70e1;
 }
-.right-list-link-signup {
+.header--header-right--manage-li-right--signup {
   border-radius: 20px;
   background-color: #172c8e;
   border: 1px solid #172c8e;
@@ -168,7 +170,7 @@ a{
   height: auto;
 }
 
-.header--midle {
+.arrange-midle--header-midle {
   display: none;
   justify-content: center;
   align-items: center;
@@ -177,7 +179,7 @@ a{
   flex-grow: 1;
 }
 
-.header--midle > ul {
+.arrange-midle--header-midle--manage-li-midle {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -190,7 +192,7 @@ a{
 
   /* background-color: red; */
 }
-.afterHeader {
+.manage-The-New-PayPal-app {
   display: none;
   width: 100%;
   height: 100px;
@@ -242,6 +244,7 @@ button {
   border: 1px solid #f1b81f;
   color: black;
   font-size: 17px;
+  cursor: pointer;
 }
 
 .arrange-first-p {
@@ -422,6 +425,9 @@ input {
   font-size: 21px;
   margin-left: 30px;
 }
+.caption > a:hover {
+  text-decoration-line: underline;
+}
 
 .caption > a {
   display: flex;
@@ -520,8 +526,9 @@ input {
 }
 
 
-
-
+.a--Link > a:hover {
+  text-decoration-line: underline;
+}
 .a--Link > a {
   font-size: 20px;
   color: #488cf0;
@@ -592,6 +599,13 @@ input {
   z-index: 2;
 
 }
+
+
+.PayPalQRCodes>a:hover{
+ outline: none;
+ text-decoration: underline;
+}
+
 .PayPalQRCodes>a{
   width: 100%;
   text-align: left;
@@ -839,6 +853,7 @@ input {
   width: 150px;
   height: auto;
   margin-left: 45px;
+  cursor: pointer;
 }
 .FirstNav {
   width: 100%;
@@ -858,6 +873,7 @@ input {
   flex-wrap: wrap;
   height: auto;
   padding: 10px;
+
 }
 
 .Nav-link-list > .nav > ul {
@@ -870,11 +886,17 @@ input {
   list-style: none;
 }
 
+.Nav-link-list > .nav > ul > li > a:hover{
+outline: none;
+text-decoration: underline;
+}
+
 .Nav-link-list > .nav > ul > li > a {
   font-size: 15px;
-  font-style: normal;
+
+  font-weight: bold;
   color: #0d1c65;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ 
 }
 .navbar-Last {
   display: flex;
@@ -899,15 +921,26 @@ input {
 .nav1 > ul > li > a {
   font-size: 15px;
   font-style: normal;
+  font-weight: bold;
   color: #0d1c65;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+ 
 }
+
+.nav1 > ul > li > a:hover{
+  outline: none;
+  text-decoration: underline;
+  }
 .nav2 > ul > li > a {
   font-size: 15px;
   font-style: normal;
   color: #0d1c65;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
 }
+
+.nav2 > ul > li > a:hover{
+  outline: none;
+  text-decoration: underline;
+  }
 
 .nav2 > ul {
   display: flex;
@@ -989,15 +1022,15 @@ input {
     order: 2;
   }
 
-  .header--left > div {
+  .header--header-left--icon {
     display: none;
   }
 
-  .header--midle {
+  .arrange-midle--header-midle {
     display: flex;
   }
 
-  .arrange--midle {
+  .arrange-midle {
     display: flex;
   }
   .header {
@@ -1036,33 +1069,33 @@ input {
     width: 100%;
     height: 100%;
   }
-  .header--right {
+  .header--header-right {
     width: 700px;
     height: 50px;
     /* background-color: red; */
   }
 
-  .header--right > ul {
+  .header--header-right--manage-li-right {
     width: 700px;
     height: 50px;
     /* background-color: red; */
   }
 
-  .right-list-link-help {
+  .header--header-right--manage-li-right--help {
     border: 1px solid #76a7d5;
     border-radius: 30px;
     color: #3870ba;
     font-size: 20px;
     padding: 14px 25px;
   }
-  .right-list-link-login {
+  .header--header-right--manage-li-right--login {
     border: 2px solid #091761;
     color: #03071b;
     border-radius: 30px;
     font-size: 20px;
     padding: 14px 25px;
   }
-  .right-list-link-signup {
+  .header--header-right--manage-li-right--signup {
     border-radius: 30px;
     font-size: 20px;
     background-color: #172c8e;
@@ -1079,7 +1112,7 @@ input {
   .btn {
     display: none;
   }
-  .afterHeader {
+  .manage-The-New-PayPal-app {
     display: flex;
   }
 
@@ -1129,7 +1162,7 @@ input {
 }
 
 @media (min-width: 1400px) {
-  .afterHeader {
+  .manage-The-New-PayPal-app {
     height: 40px;
   }
   .div-pa {
@@ -1179,40 +1212,40 @@ input {
     margin-top: 20px;
   }
 
-  .header--right > ul {
+  .header--header-right--manage-li-right {
     width: 400px;
     height: 50px;
   }
-  .header--midle {
+  .arrange-midle--header-midle{
     margin-top: 20px;
     width: 600px;
     margin-right: 200px;
   }
-  .header--midle > ul > li {
+  .arrange-midle--header-midle--manage-li-midle > li {
     font-size: 16px;
     color: #0d1c65;
   }
-  .header--left {
+  .header--header-left {
     /* flex-grow: 0.8; */
     width: 250px;
     justify-content: end;
     margin-top: 15px;
   }
-  .right-list-link-help {
+  .header--header-right--manage-li-right--help {
     border: 1px solid #76a7d5;
     border-radius: 30px;
     color: #3870ba;
     font-size: 20px;
     padding: 14px 25px;
   }
-  .right-list-link-login {
+  .header--header-right--manage-li-right--login {
     border: 2px solid #091761;
     color: #03071b;
     border-radius: 30px;
     font-size: 20px;
     padding: 14px 25px;
   }
-  .right-list-link-signup {
+  .header--header-right--manage-li-right--signup {
     border-radius: 30px;
     font-size: 20px;
     background-color: #172c8e;
